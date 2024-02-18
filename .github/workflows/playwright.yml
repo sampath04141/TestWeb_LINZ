@@ -2,20 +2,17 @@ name: Playwright Tests
 trigger:
   - master
 
-pool:
-  vmImage: local
-
 steps:
   - task: NodeTool@0
     inputs:
-      versionSpec: "18"
-    displayName: "Install Node.js"
+      versionSpec: '18'
+    displayName: 'Install Node.js'
   - script: npm ci
-    displayName: "npm ci"
+    displayName: 'npm ci'
   - script: npx playwright install --with-deps
-    displayName: "Install Playwright browsers"
+    displayName: 'Install Playwright browsers'
   - script: npx playwright test
-    displayName: "Run Playwright tests"
+    displayName: 'Run Playwright tests'
     env:
       CI: "true"
  
