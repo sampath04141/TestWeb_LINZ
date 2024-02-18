@@ -1,0 +1,227 @@
+{
+  "config": {
+    "configFile": "D:\\Programming\\Playwright\\TestWeb_LINZ\\playwright.config.js",
+    "rootDir": "D:/Programming/Playwright/TestWeb_LINZ/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "result.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "result.json"
+        }
+      ],
+      [
+        "D:\\Programming\\Playwright\\TestWeb_LINZ\\node_modules\\allure-playwright\\dist\\index.js",
+        {
+          "outputFolder": "my-allure-result"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/Programming/Playwright/TestWeb_LINZ/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/Programming/Playwright/TestWeb_LINZ/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/Programming/Playwright/TestWeb_LINZ/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/Programming/Playwright/TestWeb_LINZ/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/Programming/Playwright/TestWeb_LINZ/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/Programming/Playwright/TestWeb_LINZ/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.41.2",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "popularAreas.spec.js",
+      "file": "popularAreas.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Validate all populer topics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6130,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/products-services/landonline\">Landonline log in and alerts</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Landonline log in and alerts : Landonline log in and alerts\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/guidance/landonline-support\">Landonline support</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Landonline support : Landonline support\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/products-services/land-records/land-recor…>Search for and order a land record</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Search for and order a land record : Search for and order a land record\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/products-services/maritime-safety/notices…>Notices to Mariners</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Notices to Mariners : Notices to Mariners\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/products-services/data/linz-data-service\">LINZ Data Service</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  LINZ Data Service : LINZ Data Service\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/guidance/survey/cadastral-survey-guidelin…>Cadastral survey guidelines</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Cadastral survey guidelines : Cadastral survey guidelines\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/guidance/land-registration\">Land registration guidance</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Land registration guidance : Land registration guidance\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/guidance/overseas-investment\">Overseas investment guidance</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Overseas investment guidance : Overseas investment guidance\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/products-services/maps\">Maps</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Maps : Maps\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/products-services/tides-and-tidal-streams…>Tide predictions</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Tide predictions : Tide predictions\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/guidance/crown-property\">Crown property guidance</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Crown property guidance : Crown property guidance\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/products-services/landonline#hours\">Survey and titles processing times</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Survey and titles processing times : Survey and titles processing times\n"
+                    },
+                    {
+                      "text": "boject list -> : JSHandle@<a href=\"/our-work/new-zealand-geographic-board\">Place names</a>\n"
+                    },
+                    {
+                      "text": "\ncontain text and array test :  Place names : Place names\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-02-18T12:57:52.703Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4d8a41ef4cae11dcd4ab-fc559849e08fd3527489",
+          "file": "popularAreas.spec.js",
+          "line": 64,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-02-18T12:57:52.196Z",
+    "duration": 7171.833,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

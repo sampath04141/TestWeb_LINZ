@@ -1,0 +1,48 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="7.096864">
+<testsuite name="popularAreas.spec.js" timestamp="2024-02-18T12:57:52.288Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.13" errors="0">
+<testcase name="Validate all populer topics" classname="popularAreas.spec.js" time="6.13">
+<system-out>
+<![CDATA[boject list -> : JSHandle@<a href="/products-services/landonline">Landonline log in and alerts</a>
+
+contain text and array test :  Landonline log in and alerts : Landonline log in and alerts
+boject list -> : JSHandle@<a href="/guidance/landonline-support">Landonline support</a>
+
+contain text and array test :  Landonline support : Landonline support
+boject list -> : JSHandle@<a href="/products-services/land-records/land-recor…>Search for and order a land record</a>
+
+contain text and array test :  Search for and order a land record : Search for and order a land record
+boject list -> : JSHandle@<a href="/products-services/maritime-safety/notices…>Notices to Mariners</a>
+
+contain text and array test :  Notices to Mariners : Notices to Mariners
+boject list -> : JSHandle@<a href="/products-services/data/linz-data-service">LINZ Data Service</a>
+
+contain text and array test :  LINZ Data Service : LINZ Data Service
+boject list -> : JSHandle@<a href="/guidance/survey/cadastral-survey-guidelin…>Cadastral survey guidelines</a>
+
+contain text and array test :  Cadastral survey guidelines : Cadastral survey guidelines
+boject list -> : JSHandle@<a href="/guidance/land-registration">Land registration guidance</a>
+
+contain text and array test :  Land registration guidance : Land registration guidance
+boject list -> : JSHandle@<a href="/guidance/overseas-investment">Overseas investment guidance</a>
+
+contain text and array test :  Overseas investment guidance : Overseas investment guidance
+boject list -> : JSHandle@<a href="/products-services/maps">Maps</a>
+
+contain text and array test :  Maps : Maps
+boject list -> : JSHandle@<a href="/products-services/tides-and-tidal-streams…>Tide predictions</a>
+
+contain text and array test :  Tide predictions : Tide predictions
+boject list -> : JSHandle@<a href="/guidance/crown-property">Crown property guidance</a>
+
+contain text and array test :  Crown property guidance : Crown property guidance
+boject list -> : JSHandle@<a href="/products-services/landonline#hours">Survey and titles processing times</a>
+
+contain text and array test :  Survey and titles processing times : Survey and titles processing times
+boject list -> : JSHandle@<a href="/our-work/new-zealand-geographic-board">Place names</a>
+
+contain text and array test :  Place names : Place names
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
